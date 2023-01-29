@@ -38,4 +38,4 @@ with st.form("Generate"):
         # output header
         st.header("Paraphrased Text")
         # output results
-        st.success(response.json()["output"])   
+        st.success(response.text)   
